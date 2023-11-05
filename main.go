@@ -6,7 +6,7 @@ func main() {
 	var conferenceName = "Go Conference"
 	var conferenceTickets = 50
 	var remainingTickets uint = 50
-	var bookings [50] string
+	var bookings [50]string
 
 	fmt.Printf("Welcome to the %v booking application\n", conferenceName)
 	fmt.Printf("we have total of %v tickets and %v remaining\n", conferenceTickets, remainingTickets)
@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println(bookings)
 
-  var firstName string
+	var firstName string
 	var lastName string
 	var email string
 	var userTickets uint
